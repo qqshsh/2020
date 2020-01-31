@@ -36,13 +36,13 @@ exports.model = {
   },
   mysql: {
     handle: mysql,
-    database: 'sql_2020_qqshsh_',
+    database: isDev ? 'test' : 'sql_2020_qqshsh_',
     prefix: 'think_',
     encoding: 'utf8',
-    host: 'localhost',
+    host: isDev ? 'localhost': '218.244.133.141',
     port: '',
-    user: 'sql_2020_qqshsh_',
-    password: 'dengweiluck',
+    user: isDev ? 'root' : 'sql_2020_qqshsh_',
+    password: isDev ? '' : 'dengweiluck',
     dateStrings: true
   }
 };
