@@ -36,10 +36,9 @@
     })();
     (function() {  
       pushHistory();
-      window.addEventListener("popstate", function(e) {
-        WeixinJSBridge.invoke('closeWindow',{},function(res){ });
-      }, false);  
-      
+      // window.addEventListener("popstate", function(e) {
+      //   WeixinJSBridge.invoke('closeWindow',{},function(res){ });
+      // }, false);  
       function pushHistory() {  
         var state = {  
           title: "title",  
@@ -49,8 +48,8 @@
       }  
     })();
   </script>  
-<link href="https://qqshsh-1251362871.cos.ap-shanghai.myqcloud.com/dist/css/app.css" rel="stylesheet"></head>
+<link href="https://qqshsh-1251362871.cos.ap-shanghai.myqcloud.com/dist/css/app.4e5979f5.css" rel="stylesheet"></head>
 <body>
   <div id="app"></div>
-<script type="text/javascript" src="https://qqshsh-1251362871.cos.ap-shanghai.myqcloud.com/dist/js/app.js"></script></body>
+<script type="text/javascript" src="https://qqshsh-1251362871.cos.ap-shanghai.myqcloud.com/dist/js/app.4e5979f5.js"></script></body>
 </html>
