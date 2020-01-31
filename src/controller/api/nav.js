@@ -143,9 +143,9 @@ const data = [
         },
         {
           "title": "爱心捐赠入口",
-          "desc": "武汉加油 爱心捐赠 中国银联旗下云闪付提供的武汉红十字会捐款通道，需使用微信或云闪付打开链接：",
+          "desc": "武汉加油 爱心捐赠 美团提供的武汉红十字会捐款通道",
           "image": "http://image.werty.cn/source_blog/20200127213938.jfif",
-          "url": "https://article.unionpay.com/userview/#/actList/detail?id=1451&isShare=true"
+          "url": "https://gongyi.meituan.com/m/detail/10270?fromSource=mine&source=vaYvem&ehwebview=1&utm_term=AiphoneBgroupC10.6.401DweixinEpromotionGD872857D92BEC178CEF7DD2F977699C9ACEE68C28AE9D42DFE9F1D60530283A320200131150846094&utm_source=appshare&utm_medium=iOSweb&utm_fromapp=wx&utm_sharesource=promotion&lch=appshare_k61tthm74reo"
         },
         {
           "title": "2020 援助武汉",
