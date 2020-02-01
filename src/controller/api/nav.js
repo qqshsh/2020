@@ -129,6 +129,12 @@ const data = [
           "desc": "全国12315网络举报平台网址",
           "image": "http://image.werty.cn/source_blog/20200126125405.png",
           "url": "http://www.12315.cn/"
+        }, 
+        {
+            "title": "央视网",
+            "desc": "央视网是中国网络电视台旗下互联网站业务，也是中央重点新闻网站，以视频为特色，以互动和移动服务为基础，以特色产品和独家观点为核心，面向全球、多终端、立体化的新闻信息共享平台。",
+            "image": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6l6x0G2huoMz5XoT5ecEr7TdJdotojBy8kLUV47pGynw/0",
+            "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzI1MTY0MQ==&scene=124#wechat_redirect"
         }
       ]
     },
