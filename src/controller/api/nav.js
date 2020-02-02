@@ -43,9 +43,12 @@ module.exports = class extends Base {
             })
         })
         res.map(item => {
-            const cateId = item.cate_id;
-            const cate = cateMap.get(cateId);
-            reuselt[cate.index].item.push(item)
+            const cateStr = item.cate_id;
+            const cateArray = cateStr.split(',');
+            cateArray.map(cateId => {
+                const cate = cateMap.get(Number(cateId));
+                reuselt[cate.index].item.push(item)
+            })
         })
         this.success(reuselt);
     }
